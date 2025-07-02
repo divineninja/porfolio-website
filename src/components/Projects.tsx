@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Image from 'next/image';
 
 // Dynamically get assetPrefix from next.config.js
-const assetPrefix = process.env.NEXT_PUBLIC_ASSET_PREFIX || '/porfolio-website';
+const assetPrefix = process.env.NEXT_PUBLIC_ASSET_PREFIX || '/portfolio-website';
 
 export default function Projects() {
     const [filter, setFilter] = useState('all');
