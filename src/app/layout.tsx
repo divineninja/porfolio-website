@@ -13,23 +13,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio | Your Name",
+  title: "Portfolio | Rey Lim Jr",
   description: "A modern portfolio showcasing my work and skills in web development",
   keywords: ["portfolio", "web developer", "react", "nextjs", "typescript"],
-  authors: [{ name: "Your Name" }],
-  creator: "Your Name",
+  authors: [{ name: "Rey Lim Jr" }],
+  creator: "Rey Lim Jr",
   metadataBase: new URL("https://your-domain.com"),
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://your-domain.com",
-    title: "Portfolio | Your Name",
+    title: "Portfolio | Rey Lim Jr",
     description: "A modern portfolio showcasing my work and skills in web development",
     siteName: "Your Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Portfolio | Your Name",
+    title: "Portfolio | Rey Lim Jr",
     description: "A modern portfolio showcasing my work and skills in web development",
   },
 };

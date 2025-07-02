@@ -35,7 +35,7 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000) to view your site.
 
 ## Customization
-- Update your name, bio, and contact info in the components.
+- Update Rey Lim Jr, bio, and contact info in the components.
 - Add or edit projects in `src/components/Projects.tsx`.
 - Add new pages easily in the `src/app/` directory.
 
@@ -46,4 +46,4 @@ Open [http://localhost:3000](http://localhost:3000) to view your site.
 
 ---
 
-Built with ❤️ by Your Name
+Built with ❤️ by Rey Lim Jr

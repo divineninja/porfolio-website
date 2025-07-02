@@ -19,7 +19,7 @@ export default function Footer() {
                 { name: 'GitHub', icon: '📁', href: '#' },
                 { name: 'LinkedIn', icon: '💼', href: '#' },
                 { name: 'Twitter', icon: '🐦', href: '#' },
-                { name: 'Email', icon: '📧', href: 'mailto:your.email@example.com' },
+                { name: 'Email', icon: '📧', href: 'mailto:limreynaldojr@gmail.com' },
               ].map((social) => (
                 <a
                   key={social.name}
@@ -56,19 +56,19 @@ export default function Footer() {
             <div className="space-y-3 text-gray-400">
               <div className="flex items-center">
                 <span className="mr-3">📧</span>
-                <a href="mailto:your.email@example.com" className="hover:text-blue-400 transition-colors">
-                  your.email@example.com
+                <a href="mailto:limreynaldojr@gmail.com" className="hover:text-blue-400 transition-colors">
+                  limreynaldojr@gmail.com
                 </a>
               </div>
               <div className="flex items-center">
                 <span className="mr-3">📱</span>
                 <a href="tel:+15551234567" className="hover:text-blue-400 transition-colors">
-                  +1 (555) 123-4567
+                  +63 (968) 648 9760
                 </a>
               </div>
               <div className="flex items-center">
                 <span className="mr-3">📍</span>
-                <span>San Francisco, CA</span>
+                <span>Iloilo City, Philippines</span>
               </div>
             </div>
           </div>
@@ -78,7 +78,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm mb-4 md:mb-0">
-              © {currentYear} Your Name. All rights reserved.
+              © {currentYear} Rey Lim Jr. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm text-gray-400">
               <a href="#" className="hover:text-blue-400 transition-colors">

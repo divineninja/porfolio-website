@@ -32,7 +32,7 @@ export default function Hero() {
           <h1 className="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6">
             Hi, I'm{' '}
             <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Your Name
+              Rey Lim Jr
             </span>
           </h1>
           
@@ -68,7 +68,7 @@ export default function Hero() {
               { name: 'GitHub', icon: '📁', href: '#' },
               { name: 'LinkedIn', icon: '💼', href: '#' },
               { name: 'Twitter', icon: '🐦', href: '#' },
-              { name: 'Email', icon: '📧', href: 'mailto:your.email@example.com' },
+              { name: 'Email', icon: '📧', href: 'mailto:limreynaldojr@gmail.com' },
             ].map((social) => (
               <a
                 key={social.name}

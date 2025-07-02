@@ -43,26 +43,26 @@ export default function Contact() {
     {
       icon: '📧',
       title: 'Email',
-      value: 'your.email@example.com',
-      href: 'mailto:your.email@example.com',
+      value: 'limreynaldojr@gmail.com',
+      href: 'mailto:limreynaldojr@gmail.com',
     },
     {
       icon: '📱',
       title: 'Phone',
-      value: '+1 (555) 123-4567',
+      value: '+63 (968) 648 9760',
       href: 'tel:+15551234567',
     },
     {
       icon: '📍',
       title: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Iloilo City, Philippines',
       href: '#',
     },
     {
       icon: '💼',
       title: 'LinkedIn',
       value: 'linkedin.com/in/yourname',
-      href: 'https://linkedin.com/in/yourname',
+      href: 'https://www.linkedin.com/in/rey-lim-jr',
     },
   ];
 
@@ -148,7 +148,7 @@ export default function Contact() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                      Your Name
+                      Rey Lim Jr
                     </label>
                     <input
                       type="text"
