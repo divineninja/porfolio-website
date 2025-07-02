@@ -12,7 +12,7 @@ export default function Footer() {
             </h3>
             <p className="text-gray-400 mb-6 max-w-md">
               Passionate developer creating innovative web solutions with modern technologies. 
-              Let's build something amazing together.
+              Let&apos;s build something amazing together.
             </p>
             <div className="flex space-x-4">
               {[

@@ -41,7 +41,7 @@ export default function About() {
                     👨‍💻
                   </div>
                   <p className="text-gray-600 dark:text-gray-400 italic">
-                    "Code is like humor. When you have to explain it, it's bad."
+                    &quot;Code is like humor. When you have to explain it, it&apos;s bad.&quot;
                   </p>
                 </div>
               </div>

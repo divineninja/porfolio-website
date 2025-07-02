@@ -109,7 +109,7 @@ export default function Skills() {
                                 Always Learning
                             </h3>
                             <p className="text-lg text-gray-600 dark:text-gray-400 mb-6">
-                                Technology evolves rapidly, and I'm committed to staying current with the latest trends,
+                                Technology evolves rapidly, and I&apos;m committed to staying current with the latest trends,
                                 frameworks, and best practices in web development.
                             </p>
                             <div className="flex flex-wrap justify-center gap-3">

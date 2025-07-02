@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 
 export default function Projects() {
     const [filter, setFilter] = useState('all');
@@ -116,10 +117,14 @@ export default function Projects() {
                                 )}
 
                                 <div className="relative overflow-hidden">
-                                    <img
+                                    {/* Use Next.js Image for optimization */}
+                                    <Image
                                         src={project.image}
                                         alt={project.title}
+                                        width={600}
+                                        height={256}
                                         className="w-full h-48 lg:h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+                                        priority={index === 0}
                                     />
                                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
 
