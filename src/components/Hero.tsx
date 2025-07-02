@@ -26,7 +26,7 @@ export default function Hero() {
         <div className="max-w-4xl mx-auto">
           {/* Profile Image Placeholder */}
           <div className="w-32 h-32 mx-auto mb-8 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 flex items-center justify-center text-white text-4xl font-bold shadow-lg">
-            YN
+            RLJ
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6">
