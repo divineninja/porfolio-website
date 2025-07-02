@@ -45,6 +45,17 @@ export default function Projects() {
         },
         {
             id: 4,
+            title: 'LaraClean (rlimjr/lara-clean)',
+            description: 'A Laravel package and CLI tool to help developers build domain-driven design (DDD) applications. LaraClean can generate classes, models, and migrations in a DDD structure, streamlining the process of building scalable, maintainable Laravel projects.',
+            image: '/projects/lara-clean.png', // Add an image to public/projects/laraclean.png for best results
+            tags: ['Laravel', 'PHP', 'Domain-Driven Design', 'CLI', 'Open Source'],
+            category: 'backend',
+            liveUrl: 'https://packagist.org/packages/rlimjr/lara-clean',
+            githubUrl: 'https://github.com/divineninja/lara-clean',
+            featured: false,
+        },
+        {
+            id: 5,
             title: 'US Local Directory Website',
             description: 'USLD Dashboard client built with Nuxt.js and Vue. This project serves as the front-end interface for the USLD Dashboard, offering modern, responsive UI components and seamless interaction with backend services.',
             image: '/projects/uslcoaldirectory.png',
