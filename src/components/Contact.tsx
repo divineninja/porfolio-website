@@ -11,12 +11,6 @@ export default function Contact() {
       href: 'mailto:limreynaldojr@gmail.com',
     },
     {
-      icon: '📱',
-      title: 'Phone',
-      value: '+63 (968) 648 9760',
-      href: 'tel:+15551234567',
-    },
-    {
       icon: '📍',
       title: 'Location',
       value: 'Iloilo City, Philippines',
