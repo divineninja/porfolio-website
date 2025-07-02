@@ -13,17 +13,13 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <h3 className="text-2xl font-semibold text-gray-900 dark:text-white">
-                Passionate Developer & Designer
+                Fullstack & Backend Developer | Enterprise Web Specialist
               </h3>
               <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-                I'm a passionate full-stack developer with a keen eye for design and a love for creating 
-                digital experiences that matter. With expertise in modern web technologies, I bring ideas 
-                to life through clean, efficient code and intuitive user interfaces.
+                I am a fullstack and backend developer specializing in building robust, scalable enterprise web applications. My passion lies in solving real-world problems through technology, architecting solutions that drive business value and improve user experiences.
               </p>
               <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-                When I'm not coding, you can find me exploring new technologies, contributing to open-source 
-                projects, or sharing knowledge with the developer community. I believe in continuous learning 
-                and staying up-to-date with the latest industry trends.
+                With a strong foundation in modern web technologies and a focus on backend systems, I enjoy designing and implementing complex systems, APIs, and integrations. I thrive on challenges and love collaborating with teams to deliver high-quality, maintainable software.
               </p>
               
               <div className="grid grid-cols-2 gap-6 pt-6">

@@ -61,7 +61,7 @@ export default function Contact() {
     {
       icon: '💼',
       title: 'LinkedIn',
-      value: 'linkedin.com/in/yourname',
+      value: 'https://www.linkedin.com/in/rey-lim-jr',
       href: 'https://www.linkedin.com/in/rey-lim-jr',
     },
   ];
@@ -139,95 +139,28 @@ export default function Contact() {
             </div>
 
             {/* Contact Form */}
-            <div className="bg-white dark:bg-gray-900 rounded-2xl p-8 shadow-xl">
-              <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6">
-                Send a Message
+            <div className="bg-gradient-to-br from-blue-50 to-purple-100 dark:from-gray-900 dark:to-gray-800 rounded-3xl p-10 shadow-2xl flex flex-col items-center justify-center min-h-[320px] border border-blue-100 dark:border-gray-800 relative overflow-hidden">
+              <div className="absolute -top-8 -left-8 w-32 h-32 bg-blue-200 dark:bg-blue-900 opacity-20 rounded-full blur-2xl animate-pulse" />
+              <div className="absolute -bottom-8 -right-8 w-32 h-32 bg-purple-200 dark:bg-purple-900 opacity-20 rounded-full blur-2xl animate-pulse" />
+              <h3 className="text-3xl md:text-4xl font-extrabold text-gray-900 dark:text-white mb-4 tracking-tight text-center">
+                Let's Connect
               </h3>
-              
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div>
-                    <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                      Rey Lim Jr
-                    </label>
-                    <input
-                      type="text"
-                      id="name"
-                      name="name"
-                      value={formData.name}
-                      onChange={handleChange}
-                      required
-                      className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-800 dark:text-white transition-colors"
-                      placeholder="John Doe"
-                    />
-                  </div>
-                  <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                      Email Address
-                    </label>
-                    <input
-                      type="email"
-                      id="email"
-                      name="email"
-                      value={formData.email}
-                      onChange={handleChange}
-                      required
-                      className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-800 dark:text-white transition-colors"
-                      placeholder="john@example.com"
-                    />
-                  </div>
-                </div>
-
-                <div>
-                  <label htmlFor="subject" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                    Subject
-                  </label>
-                  <input
-                    type="text"
-                    id="subject"
-                    name="subject"
-                    value={formData.subject}
-                    onChange={handleChange}
-                    required
-                    className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-800 dark:text-white transition-colors"
-                    placeholder="Project Inquiry"
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                    Message
-                  </label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    value={formData.message}
-                    onChange={handleChange}
-                    required
-                    rows={6}
-                    className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-800 dark:text-white transition-colors resize-none"
-                    placeholder="Tell me about your project or just say hello!"
-                  />
-                </div>
-
-                <button
-                  type="submit"
-                  disabled={isSubmitting}
-                  className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-4 px-6 rounded-lg font-semibold hover:shadow-lg transition-all duration-300 transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
-                >
-                  {isSubmitting ? (
-                    <span className="flex items-center justify-center">
-                      <svg className="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                        <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                        <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                      </svg>
-                      Sending...
-                    </span>
-                  ) : (
-                    'Send Message'
-                  )}
-                </button>
-              </form>
+              <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 mb-8 text-center max-w-2xl leading-relaxed">
+                For inquiries, collaborations, or just to say hello, please email me directly:
+              </p>
+              <a
+                href="mailto:limreynaldojr@gmail.com"
+                className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white text-lg md:text-xl font-bold rounded-full shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-800"
+                aria-label="Send email to limreynaldojr@gmail.com"
+              >
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M16 12l-4-4-4 4m8 0l-4 4-4-4" />
+                </svg>
+                limreynaldojr@gmail.com
+              </a>
+              <p className="text-base md:text-lg text-gray-500 dark:text-gray-400 mt-8 text-center max-w-xl">
+                I look forward to connecting with you and will respond as soon as possible!
+              </p>
             </div>
           </div>
         </div>

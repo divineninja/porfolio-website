@@ -65,9 +65,8 @@ export default function Hero() {
           {/* Social Links */}
           <div className="flex justify-center space-x-6 mt-12">
             {[
-              { name: 'GitHub', icon: '📁', href: '#' },
-              { name: 'LinkedIn', icon: '💼', href: '#' },
-              { name: 'Twitter', icon: '🐦', href: '#' },
+              { name: 'GitHub', icon: '📁', href: 'https://github.com/divineninja/' },
+              { name: 'LinkedIn', icon: '💼', href: 'https://www.linkedin.com/in/rey-lim-jr' },
               { name: 'Email', icon: '📧', href: 'mailto:limreynaldojr@gmail.com' },
             ].map((social) => (
               <a
